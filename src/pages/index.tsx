@@ -33,7 +33,7 @@ export default function Home() {
           <Botao cor='green' className='mb-4'>Novo Cliente</Botao>
         </div>
         {/* <Tabela clientes={clientes} clienteSelecionado={clienteSelecionado} clienteExcluido={clienteExcluido} /> */}
-        <Formulario />
+        <Formulario cliente={clientes[1]}></Formulario>
       </Layout>
     </div>
   )
